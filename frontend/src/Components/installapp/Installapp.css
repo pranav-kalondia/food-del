@@ -1,0 +1,46 @@
+.text{
+    
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 300;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+
+}
+.appstore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+.appstore img{
+    width: 15vw;
+}
+.downloadapp{
+width: 80%;
+margin: auto;
+padding-bottom: 100px;
+}
+@media (max-width: 987px){
+
+    .text{
+    
+        font-size: 10vw;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .appstore{
+        display: grid;
+        align-items: center;
+        
+    }
+    .appstore img{
+padding-top: 10px;
+        width: 40vw;
+    }
+}
